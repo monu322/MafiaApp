@@ -1,0 +1,47 @@
+.side-menu
+{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: rgba(0,0,0,0.7);
+    z-index: 9999999;
+}
+
+.logo
+{
+    margin: auto;
+    width: 150px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.highlight
+{
+    color: #3DCCF4;
+}
+
+.employee-list
+{
+    ul
+    {
+        list-style: none;
+        display: block;
+        width: 100%;
+        color: white;
+        font-weight: 300;
+
+        li
+        {
+            padding: 10px 0px;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover
+            {
+                background: #404146;
+            }
+        }
+    }
+}

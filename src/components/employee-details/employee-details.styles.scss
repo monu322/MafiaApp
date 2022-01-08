@@ -1,0 +1,78 @@
+.employee-details
+{
+    top: 200px;
+    left: 0px;
+    padding-left: 200px;
+    background: #2E2E36;
+    height: 100vh;
+
+    
+
+    .employee-details-box
+    {
+        position: relative;
+        padding: 50px;
+        color: white;
+        padding-left: 330px;
+        height: 100%;
+        background: #2E2E36;
+    }
+
+    p
+    {
+        background: #1A1D24;
+        border-radius: 5px;
+        border: 1px solid #161616;
+        padding: 20px;
+        margin-top:30px;
+    }
+
+    h1
+    {
+        font-weight: 300;
+        margin: 0;
+    }
+
+    img
+    {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 45px;
+        left: 145px;
+        border-radius: 4px;
+        border:1px solid rgba(255,255,255,0.5);
+    }
+
+    .popularity-slider
+    {
+        margin-top: 5px;
+        padding-left: 0px;
+    }
+
+    .name {
+        margin-bottom: 20px;
+      }
+    
+      h3
+      {
+          font-size: 23px;
+          color: rgba(255,255,255,0.8);
+          font-weight: 300;
+      }
+
+      .form-range::-webkit-slider-runnable-track
+      {
+          background-color: #1b1b1c;
+          height:0.2rem; 
+      }
+
+      .form-range::-webkit-slider-thumb
+      {
+          background-color: white;
+          position: relative;
+          top: -5px;
+          width: 1.2rem;
+            height: 1.2rem;
+      }
+}

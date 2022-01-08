@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./assets/_Font/Roboto-Regular.ttf) format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: local('Roboto'), url(./assets/_Font/Roboto-Light.ttf) format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App
+{
+  background: #2E2E36 url('./assets/_images/header-bg.jpg') no-repeat;
+  background-size: 100%;
+  background-attachment:fixed;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-height: auto;    
+  width: 100vw;
+  font-family: Roboto, Arial, serif;
+  background-position: 0px -150px;
+  padding-top: 200px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul
+{
+  margin: 0px;
+  padding:0px;
 }
